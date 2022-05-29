@@ -1139,3 +1139,7 @@ form input[type="submit"]:focus {
   margin:auto;
   width:75%;
 }
+
+.layout_padding{
+  background-image: url(../images/fondo.jpeg);
+}

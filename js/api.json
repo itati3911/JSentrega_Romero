@@ -3,73 +3,73 @@
     "precio": 100,
     "id": 1,
     "title": "Rosa",
-    "thumbnailUrl": "assets/rosa288.jpg"
+    "thumbnailUrl": "images/rosa288.jpg"
 },
 
 {
     "precio": 150,
     "id": 2,
     "title": "Margarita",
-    "thumbnailUrl": "assets/margarita288.jpg"
+    "thumbnailUrl": "images/margarita288.jpg"
 },
 {
     "precio": 200,
     "id": 3,
     "title": "Petunia",
-    "thumbnailUrl": "assets/petunia288.jpg"
+    "thumbnailUrl": "images/petunia288.jpg"
 },
 {
     "precio": 200,
     "id": 4,
     "title": "Crisantemo",
-    "thumbnailUrl": "assets/crisantemo288.jpg"
+    "thumbnailUrl": "images/crisantemo288.jpg"
 },
 {
     "precio": 250,
     "id": 5,
     "title": "Azucena",
-    "thumbnailUrl": "assets/azucena288.jpg"
+    "thumbnailUrl": "images/azucena288.jpg"
 },
 {
     "precio": 300,
     "id": 6,
     "title": "Dalia",
-    "thumbnailUrl": "assets/dalia288.jpg"
+    "thumbnailUrl": "images/dalia288.jpg"
 },
 {
     "precio": 400,
     "id": 7,
     "title": "Hibisco",
-    "thumbnailUrl": "assets/hibisco288.jpg"
+    "thumbnailUrl": "images/hibisco288.jpg"
 },
 {
     "precio": 200,
     "id": 8,
     "title": "Hortensia",
-    "thumbnailUrl": "assets/hortensia288.jpg"
+    "thumbnailUrl": "images/hortensia288.jpg"
 },
 {
     "precio": 300,
     "id": 9,
     "title": "Azalea",
-    "thumbnailUrl": "assets/azalea288.jpg"
+    "thumbnailUrl": "images/azalea288.jpg"
 },
 {
     "precio": 150,
     "id": 10,
     "title": "Girasol",
-    "thumbnailUrl": "assets/girasol288.jpg"
+    "thumbnailUrl": "images/girasol288.jpg"
 },
 {
     "precio": 400,
     "id": 11,
     "title": "Tulipán",
-    "thumbnailUrl": "assets/tulipan288.jpg"
+    "thumbnailUrl": "images/tulipan288.jpg"
 },
 {
     "precio": 350,
     "id": 12,
     "title": "Gladiolo",
-    "thumbnailUrl": "assets/gladiolo288.jpg"
+    "thumbnailUrl": "images/gladiolo288.jpg"
 }
 ]
