@@ -7,8 +7,8 @@
 }
 
 .buscador {
-  max-width: 32rem;
-  margin: 0 auto;
+    max-width: 32rem;
+    margin: 0 auto;
 }
 
 #formulario {
@@ -39,7 +39,7 @@ input {
 
 /* Contenedor imagenes */
 
- #resultado {
+#resultado {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 2rem;
@@ -80,11 +80,11 @@ input {
     background-color: white;
     color: black;
     cursor: pointer;
-} 
+}
 
 
 /* Alerta */
- .alerta{
+.alerta {
     text-align: center;
     border: 1px solid inherit;
     margin: 1rem 0;

@@ -59,15 +59,15 @@ function mostrarPanel() {
 
 
 
-/***toastify****/
+    /***toastify****/
     Toastify({
 
-        text: "Sesión iniciada", 
-        
+        text: "Sesión iniciada",
+
         duration: 3000
-        
-        }).showToast();
-        
+
+    }).showToast();
+
 
 
 

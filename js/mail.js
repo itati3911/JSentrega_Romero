@@ -2,9 +2,9 @@ document.querySelector('#registroMail').addEventListener('click', run)
 
 function run() {
     const mailRegistrado = document.querySelector('#mailNuevo').value
-    
 
-    if ( mailRegistrado !== " " ) {
+
+    if (mailRegistrado !== " ") {
         Swal.fire({
             title: 'Datos guardados!',
             text: "Recibirás nuestro newsletter con las mejores ofertas!",
@@ -14,7 +14,7 @@ function run() {
             imageAlt: 'Custom image',
         })
 
-        
+
 
     }
 

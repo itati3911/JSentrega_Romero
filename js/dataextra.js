@@ -12,12 +12,12 @@ formulario.addEventListener('submit', (e) => {
 function validarFormulario() {
     const terminoBusqueda = inputBusqueda.value;  //  ""
     if (!terminoBusqueda) {
-        
+
         Swal.fire(
             'Good job!',
             'You clicked the button!',
             'success'
-          )
+        )
         return;
     }
 
@@ -25,14 +25,14 @@ function validarFormulario() {
     inputBusqueda.value = "";
 }
 
-function buscarImagenes(termino){
+function buscarImagenes(termino) {
     const URL_BASE = "https://pixabay.com/api/";
-    const API_KEY = "18819943-d82658bbc45d965508c8bc146";  ``
-    const URL = `${URL_BASE}?key=${API_KEY}&q=${termino}&image_type=photo`;  
+    const API_KEY = "18819943-d82658bbc45d965508c8bc146"; ``
+    const URL = `${URL_BASE}?key=${API_KEY}&q=${termino}&image_type=photo`;
 
     fetch(URL)
-        .then( respuesta => respuesta.json())
-        .then( data => {
+        .then(respuesta => respuesta.json())
+        .then(data => {
             data.hits.length === 0 ? mostrarAlerta("No existe en nuestro rubro, intentá con otro término") : mostrarResultados(data.hits)
         })
 }
@@ -41,8 +41,8 @@ function mostrarResultados(imagenes = []) {
 
     divResultado.innerHTML = "";
 
-    imagenes.forEach( imagen => {
-        const {previewURL, likes,  views} = imagen; 
+    imagenes.forEach(imagen => {
+        const { previewURL, likes, views } = imagen;
 
         const divImagen = document.createElement('div');
         divImagen.classList.add('card');
@@ -72,7 +72,7 @@ function mostrarResultados(imagenes = []) {
     })
 }
 
-function mostrarAlerta(mensaje){
+function mostrarAlerta(mensaje) {
 
     const divAlert = document.createElement('div');
     divAlert.classList.add('alerta', 'error');

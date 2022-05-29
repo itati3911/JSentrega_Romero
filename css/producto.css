@@ -2,7 +2,7 @@ img {
     width: 100%;
 }
 
-.contenedor{
+.contenedor {
     margin: 0 auto;
     max-width: 900px;
 }
@@ -31,18 +31,18 @@ img {
     border-radius: 10px;
     color: rgb(14, 13, 13);
     overflow: hidden;
-    
+
 }
 
-h3{
+h3 {
     font-size: 5px;
 }
 
-@media (max-width: 767px){
-    .card.h3{
-        font-size:6px;
+@media (max-width: 767px) {
+    .card.h3 {
+        font-size: 6px;
     }
-} 
+}
 
 
 .imagen-producto {
@@ -65,7 +65,7 @@ h3{
 
 .btn-favorito:hover {
     background-color: aliceblue;
-} 
+}
 
 
 /* Envíos */
@@ -75,7 +75,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.listado-envio{
+.listado-envio {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
