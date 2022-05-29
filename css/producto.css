@@ -1,0 +1,82 @@
+img {
+    width: 100%;
+}
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+.titulo {
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(7, 7, 7);
+    font-size: 4rem;
+}
+
+
+.contenedor-productos {
+    margin-top: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.card {
+    margin-bottom: 2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(14, 13, 13);
+    overflow: hidden;
+    
+}
+
+h3{
+    font-size: 5px;
+}
+
+@media (max-width: 767px){
+    .card.h3{
+        font-size:6px;
+    }
+} 
+
+
+.imagen-producto {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.btn-favorito {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-favorito:hover {
+    background-color: aliceblue;
+} 
+
+
+/* Envíos */
+h2 {
+    color: rgb(7, 7, 7);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.listado-envio{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
