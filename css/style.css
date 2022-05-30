@@ -1153,4 +1153,5 @@ form input[type="submit"]:focus {
 
 .layout_padding {
   background-image: url(../images/fondo.jpeg);
+  background-size: cover;
 }
